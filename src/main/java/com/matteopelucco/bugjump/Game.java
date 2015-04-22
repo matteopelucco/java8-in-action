@@ -63,6 +63,7 @@ public class Game extends javafx.application.Application {
 		javafx.application.Application.launch(args);
 	}
 
+	@SuppressWarnings("restriction")
 	@Override
 	public void start(final Stage stage) {
 		/* Initialize the window and containers */
@@ -125,6 +126,7 @@ public class Game extends javafx.application.Application {
 		stage.show();
 	}
 
+	@SuppressWarnings("restriction")
 	private void checkCollision(final Collectible sun, final Bug bug,
 			final StackPane root) {
 		/*
